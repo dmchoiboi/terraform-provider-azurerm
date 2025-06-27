@@ -94,6 +94,7 @@ func (r CognitiveDeploymentResource) Arguments() map[string]*pluginsdk.Schema {
 						ValidateFunc: validation.StringInSlice([]string{
 							"OpenAI",
 							"Cohere",
+							"Microsoft",
 						}, false),
 					},
 
